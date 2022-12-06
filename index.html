@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Data TYpes</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            ul.myul{
+                list-style: none;
+            }
+            
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1>Javascript Data Types</h1>
+        <ul class="myul">
+            <li>String  ""/''/``</li>
+            <li>Number 1,2,3,4,5</li>
+            <li>Object {}</li>
+        </ul>
+
+        <p id="new1"></p>
+        <p data-news2="news2"></p>
+        
+        <script>
+
+            /*
+            The proposal involves the use of PAN as a unique identifier for entering the National Single Window System (NSWS) instead of using other identifiers for central and state-level regulatory approvals, Piyush Goyal said
+            */
+
+            let news1 = {  //JS object
+                //1. Property:Value,
+                w1:"The", // String
+                w2:'proposal',
+                w3:`involves`,
+                w4:'the',
+                reporter:"Sakshi"
+
+
+                //2. 
+            };//
+            let news2 = {
+                //1. Property:Value,
+                w1:"The", // String
+                w2:'latest',
+                w3:`confrontation`,
+                w4:`plunged`,
+               
+                reporter:"Bishnu"
+                //2. 
+            };//
+
+            //There are 4 ways to display the output
+
+            //Testing temproary
+            // Value     object.property
+            let n1 = news1.w1 + " " + news1.w2 + ' '+ news1.w3 + ` `+news1.w4; //Statement
+            console.log(n1);
+
+
+            let y = document.getElementById("new1");
+
+            y.innerHTML = 'Hi';
+            y.style.color = 'green';
+            y.innerHTML = n1;
+
+
+            const n2 = news2.w1 + " " + news2.w2 + ' ' + news2.w3;
+
+            console.log(n2);
+
+            var x =  document.querySelector('p[data-news2="news2"]');
+            x.innerHTML = n2;
+            x.style.color = "red";
+
+
+            var $a = 10;
+            var $b = 20;
+
+            console.log($a + $b);
+
+
+        </script>
+    </body>
+</html>

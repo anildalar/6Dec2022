@@ -1,0 +1,23 @@
+Ctrl + F = Find
+
+ 6 + 5 = //Addition Operator
+	2.5 + 2.5 = 5 //Addition operator
+
+	"Anil" + 30 //Concatination OPerator
+	30 + 'Anil' //COncatination operator
+
+	`Anil` + "Dollor"  //Concatination operator
+
+cls = clear screen
+
+
+The most important Principle while developing a software/website
+
+DRY Principle
+
+DRY = Dont Repeat Yourself
+
+Optimize the code
+
+Dont Repeat but Reuse
+
